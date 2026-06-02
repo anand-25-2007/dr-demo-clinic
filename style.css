@@ -867,39 +867,50 @@ width:100%;
 .chat-toggle{
 
 position:fixed;
-
-bottom:110px;
 right:25px;
+bottom:25px;
 
-width:65px;
-height:65px;
+width:80px;
+height:95px;
 
 background:#2563eb;
 
-border-radius:50%;
+border-radius:25px;
 
 display:flex;
+flex-direction:column;
+
 justify-content:center;
 align-items:center;
-
-font-size:28px;
 
 color:white;
 
 cursor:pointer;
 
-z-index:999;
-
 box-shadow:
-0 10px 25px rgba(0,0,0,.25);
+0 10px 30px rgba(37,99,235,.3);
+
+z-index:1000;
 
 transition:.3s;
 
 }
 
+.chat-toggle span{
+
+font-size:12px;
+
+font-weight:600;
+
+margin-top:6px;
+
+letter-spacing:.3px;
+
+}
+
 .chat-toggle:hover{
 
-transform:scale(1.08);
+transform:translateY(-5px);
 
 }
 
