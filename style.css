@@ -493,24 +493,6 @@ color:#475569;
    WHATSAPP
 ========================= */
 
-.whatsapp{
-position:fixed;
-right:25px;
-bottom:25px;
-width:70px;
-height:70px;
-background:#25D366;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-font-size:34px;
-color:white;
-box-shadow:0 10px 30px rgba(0,0,0,.25);
-animation:pulse 2s infinite;
-z-index:1000;
-}
-
 @keyframes pulse{
 
 0%{
@@ -687,16 +669,6 @@ transition:.8s ease;
 
 opacity:1;
 transform:translateY(0);
-
-}
-
-/* =========================
-   WHATSAPP BOUNCE
-========================= */
-
-.bounce{
-
-animation:bounce .8s;
 
 }
 

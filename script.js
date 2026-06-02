@@ -246,25 +246,6 @@ window.addEventListener("scroll", () => {
 });
 
 /* =========================
-   FLOATING WHATSAPP
-========================= */
-
-const whatsapp =
-document.querySelector(".whatsapp");
-
-setInterval(() => {
-
-    whatsapp.classList.add("bounce");
-
-    setTimeout(() => {
-
-        whatsapp.classList.remove("bounce");
-
-    }, 1000);
-
-}, 5000);
-
-/* =========================
    HAMBURGER MENU
 ========================= */
 
